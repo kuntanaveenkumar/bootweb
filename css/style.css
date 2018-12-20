@@ -1,0 +1,54 @@
+html,body 
+{
+  height: 100%;
+  background: #fff !important;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -30px;
+  padding: 0 0 70px;
+  background-color:#fff;
+}
+.container{
+    position:relative;
+}
+.wrapper > .container {
+  padding: 30px 15px 0;
+}
+.bg-primary {
+    background-color: #3e4e6f !important;
+}
+p {
+  
+    font-size: 12px;
+}
+.footertext
+{
+    color:#fff;
+    
+    font-size: 11px;   
+} 
+
+.footer {
+	background-color: #3e4e6f;
+	color: #FFFFFF;
+	height: 30px;
+    position: relative;
+    bottom:0;
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    /*
+    z-index:-9999;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;*/
+}
+.content
+{
+  padding:0px 10px 0px 10px;
+}
