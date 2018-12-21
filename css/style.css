@@ -2,18 +2,19 @@
 html, body {
         height : 100%;
         background : #fff !important ;
-        font-family : 'Roboto', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+       
     }
     .wrapper {
         min-height : 100%;
-        height : auto !important ;
-        height : 100%;
-        margin : 0 auto -30px;
-        padding : 0 0 70px;
-        background-color : #fff;
         -webkit-box-shadow: 1px 1px 3px 4px #dadada;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
         -moz-box-shadow:    1px 1px 3px 4px #dadada;  /* Firefox 3.5 - 3.6 */
         box-shadow:         1px 1px 4px 4px #dadada; 
+        height : 100%;
+        
+       
+        background-color : #fff;
+       
     }
     .container {
         position : relative;
@@ -33,6 +34,11 @@ html, body {
         font-size : 11px;
         text-align: center;
     }
+    .subfooter
+    {
+        background-color : #5e5b5b;
+        height: 150px;
+    }
     .footer {
         background-color : #0c1f31;
         color : #FFFFFF;
@@ -48,10 +54,7 @@ html, body {
     .content {
          padding : 15px 15px 0 15px;       
     }
-    small {
-        font-size : 12px;
-        color : rgba(0, 0, 0, 0.4);
-    }
+   
     h1 {
         text-align : center;
         padding : 50px 0;
@@ -72,9 +75,7 @@ html, body {
     .center {
         text-align : center;
     }
-    section {
-        height : 100vh;
-    }
+  
     nav ul {
         list-style : none;
         text-align : center;
@@ -94,7 +95,7 @@ html, body {
     }
     nav ul li a, nav ul li a:after, nav ul li a:before {
         transition : all 0.5s;
-        
+        color:#fff;
     }
     nav ul li a:hover {
         color : #555;
@@ -102,11 +103,13 @@ html, body {
     .navtransition ul li a {
         position : relative;
         z-index : 1;
-        font-size:12px;
+        font-size:11px;
+        text-transform: uppercase;
+        color:#fff;
     }
     .navtransition ul li a:hover {
-      color : #91640F;
-      font-size:12px;
+        color:#0c1f31;
+      font-size:11px;
     }
     .navtransition ul li a:after {
         display : block;
@@ -135,8 +138,14 @@ html, body {
     .carousel-inner img {
      width : 100%;
     }
-    .navbar-dark .navbar-nav .nav-link a {
+    .nav-link{
 
         color: #fff;
     
     }
+    
+.footer-middle{
+    background: #0c1f31;
+   padding-top: 2em;
+   color: white;
+ }
